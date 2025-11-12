@@ -4,51 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="url(style.css)">
 </head>
 <body>
 
     <header>
-        <h1>jordach DAN ZOLLNER</h1>
-        <p> je suis un harck etique en formation </p>
+        <h1>John Doe</h1>
+        <p>Développeur Web & Designer UI/UX</p>
     </header>
 
     <nav>
-        <a href="#accueil">Accueil</a>
-        <a href="#projets">Projets</a>
+        <a href="#titre">Accueil</a>
+        <a href="#formations">Formations</a>
+        <a href="#experiences">Expériences</a>
         <a href="#competences">Compétences</a>
-        <a href="#contact">Contact</a>
+        <a href="#associations">Associations</a>
     </nav>
 
     <main>
-        <section id="accueil">
-            <h2>Qui suis-je ?</h2>
-            <p>Passionné de cybersecurité et de piratage , je crée  actuellementdes pages web élégantes et fonctionnelles. Toujours à la recherche de nouveaux défis et d’expériences enrichissantes.</p>
+        <!-- Titre & Courte description -->
+        <section id="titre">
+            <h2>À propos de moi</h2>
+            <p>Passionné de développement web et de design, je crée des interfaces élégantes et fonctionnelles. Toujours à la recherche de nouveaux défis et d’expériences enrichissantes.</p>
         </section>
 
-        <section id="projets">
-            <h2>Mes Projets</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="https://via.placeholder.com/300x200" alt="Projet 1">
-                    <h3>Site E-commerce</h3>
-                    <p>Un site de vente en ligne avec panier et paiement sécurisé.</p>
-                </div>
-                <div class="project-card">
-                    <img src="https://via.placeholder.com/300x200" alt="Projet 2">
-                    <h3>Application Mobile</h3>
-                    <p>Une app de gestion de tâches avec synchronisation cloud.</p>
-                </div>
-                <div class="project-card">
-                    <img src="https://via.placeholder.com/300x200" alt="Projet 3">
-                    <h3>Portfolio Designer</h3>
-                    <p>Un portfolio interactif pour un designer graphique.</p>
-                </div>
-            </div>
+        <!-- Formations -->
+        <section id="formations">
+            <h2>Formations</h2>
+            <ul>
+                <li><strong>Master en Informatique</strong> - Université de Paris, 2022</li>
+                <li><strong>Diplôme en Web Design</strong> - École Supérieure des Arts, 2020</li>
+                <li><strong>Certification UX/UI</strong> - Coursera, 2021</li>
+            </ul>
         </section>
 
+        <!-- Expériences -->
+        <section id="experiences">
+            <h2>Expériences Professionnelles</h2>
+            <ul>
+                <li><strong>Développeur Frontend</strong> - TechCorp, 2023 - Aujourd'hui</li>
+                <li><strong>Designer UI Freelance</strong> - Auto-entrepreneur, 2021 - 2023</li>
+                <li><strong>Assistant Technique</strong> - Agence Digitale, 2020 - 2021</li>
+            </ul>
+        </section>
+
+        <!-- Compétences -->
         <section id="competences">
-            <h2>Mes Compétences</h2>
+            <h2>Compétences</h2>
             <div class="skills-list">
                 <span class="skill">HTML5</span>
                 <span class="skill">CSS3</span>
@@ -56,22 +58,24 @@
                 <span class="skill">React</span>
                 <span class="skill">UI/UX</span>
                 <span class="skill">Figma</span>
+                <span class="skill">Git</span>
+                <span class="skill">Node.js</span>
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Contactez-moi</h2>
-            <form>
-                <input type="text" placeholder="Votre nom" required>
-                <input type="email" placeholder="Votre email" required>
-                <textarea placeholder="Votre message" rows="5" required></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
+        <!-- Associations -->
+        <section id="associations">
+            <h2>Associations</h2>
+            <ul>
+                <li><strong>DevCommunity</strong> - Membre actif, 2022 - Aujourd'hui</li>
+                <li><strong>Designers for Good</strong> - Bénévole, 2021 - 2022</li>
+                <li><strong>Open Source Society</strong> - Contributeur, 2020 - Aujourd'hui</li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 jordach DAN ZOLLNER. Tous droits réservés.</p>
+        <p>&copy; 2025 John Doe. Tous droits réservés.</p>
     </footer>
 
 </body>
